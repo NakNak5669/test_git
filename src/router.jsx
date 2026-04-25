@@ -9,6 +9,7 @@ import Register from "./pages/Register";
 import NotFound from "./pages/NotFound";
 import Checkout from "./pages/Checkout";
 import Nak from "./pages/testNak";
+import Logo from "./pages/Logo"
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
       { path: "/cart", element: <Cart /> },
       { path: "/checkout", element: <Checkout /> },
       { path: "/testNak", element: <Nak/>},
+      { path: "/logo" , element: <Logo/>},
 
       // ✅ Auth UI
       { path: "/login", element: <Login /> },
